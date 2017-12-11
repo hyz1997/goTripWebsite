@@ -1,0 +1,291 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+a:hover {
+	text-transform: none;
+	text-decoration: none;
+}
+.chongqing {
+	width: 100%;
+	height: 45px;
+	background-color: #031c3a;
+	position: fixed;
+    z-index: 999;
+}
+.chongqing p {
+	text-align: center;
+	line-height: 45px;
+}
+.header {
+	background-color: #3c6d6e;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	position: fixed;
+    z-index: 999;
+    margin-top: 45px;
+}
+.header-ul {
+	float: left;
+	margin-left: 40px;
+}
+.header li {
+	width: 95px;
+	height: 50px;
+	float: left;
+	/* display: inline-block; */
+	margin-right: 8px;
+	/*-webkit-transform: scale(1.0);
+	transform: scale(1.0);*/
+}
+.header li a {
+	color: #fff;
+	/* font-size: 18px; */
+}
+.header li a:hover {
+	color: #999;
+	/* font-size: 18px; */
+}
+/*.header li:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: 0.1s;
+	overflow: hidden;
+}*/
+.logo {
+	/*float: left;*/
+	width: 40px;
+	/*margin-left: 60px;*/
+	/*margin-top: 5px;*/
+}
+.dropdown-menu {
+	border: none !important;
+	width: 110px;
+	background-color: #3c6d6e;
+	margin-left: -5px;
+	margin-top: -6px;
+}
+.dropdown-menu a:hover {
+	color: #999 !important;
+	font-size: 14px  !important;
+	background-color: #3c6d6e !important;
+
+}
+.search {
+	float:left;
+	position: fixed;
+	width:230px;
+	margin-left: 867px;
+}
+.search input {
+	display: block;
+	height: 30px;
+	float: left;
+	margin-top: 10px;
+	background-color: rgba(255, 255, 255, 0.67);
+	border: 0;
+}
+.search img {
+	margin-top: -3px;
+	margin-left: -27px;
+}
+
+/*广告*/
+.banner{
+	width: 100%;
+	height: 600px;
+}
+.banner img{
+	width: 100%;
+	height: 600px;
+    margin-top: 95px;
+}
+/*主体*/
+.special_dilisious{
+	width: 883px;
+	height: 29px;
+	margin: 95px auto;
+}
+.line1{
+	width: 345px;
+	height: 2px;
+	margin: 81px 0 0 0;
+	background-color: #7a5f3a;
+	float: left;
+}
+.special_word{
+	width: 129px;
+	height: 29px;
+	margin: 66.5px 0 0 32px;
+	border: 2px solid #7a5f3a;
+	float: left;
+	color: #7a5f3a;
+	text-align: center;
+	line-height: 29px;
+	font-size: 18px;
+}
+.line2{
+	width: 345px;
+	height: 2px;
+	margin: 81px 0 0 32px;
+	background-color: #7a5f3a;
+	float: right;
+}
+.konwmore{
+	width: 883px;
+	height: 29px;
+	margin: 0 auto;
+}
+.line3{
+	width: 345px;
+	height: 2px;
+	margin: 11.5px 0 0 0;
+	background-color: #7a5f3a;
+	float: left;
+}
+.special_word1{
+	width: 129px;
+	height: 29px;
+	margin: 0 0 0 32px;
+	border: 2px solid #7a5f3a;
+	float: left;
+	color: #7a5f3a;
+	text-align: center;
+	line-height: 29px;
+	font-size: 18px;
+}
+.line4{
+	width: 345px;
+	height: 2px;
+	margin: 11.5px 0 0 32px;
+	background-color: #7a5f3a;
+	float: right;
+}
+.foodshow{
+	width: 950px;
+	height: 225px;
+	margin: 20px auto;
+}
+.foodshow img{
+	width: 258px;
+	height: 183px;
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+	float: left;
+}
+.foodshow img:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+.foodshow ul li{
+	width: 258px;
+	height: 183px;
+	float: left;
+	margin-left: 44px;
+}
+.foodshow ul li span{
+	width: 175px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 41.5px;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+}
+.food_intr{
+	width: 325px;
+	height: 30px;
+	line-height: 30px;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.food_intr_main{
+	width: 860px;
+	height: 230px;
+	margin: 20px auto;
+}
+.food_intr_pic{
+	width: 324px;
+	height: 200px;
+	float: left;
+}
+.food_intr_pic img{
+	width: 100%;
+	height: 230px;
+}
+.food_intr_word{
+	width: 486px;
+	height: 230px;
+	margin-top: 30px;
+	margin-left: 50px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 18px;
+	text-indent: 2em;
+	line-height: 40px;
+	float: left;
+}
+.foodieAssess{
+	width:890px;
+	height: 404px;
+	margin: 40px auto;
+}
+.foodieAssess ul li{
+	width: 306px;
+	height: 404px;
+	margin-left: 90px;
+	float: left;
+}
+.foodieAssess ul li img{
+	width: 100%;
+	height: 50%;
+	float: left;
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+}
+.foodieAssess ul li img:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+.foodieAssess ul li p{
+	width: 100%;
+	height: 45%;
+	margin-top: 5%;
+	float: left;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: left;
+	text-indent: 2em;
+}
+/**/
+.footer {
+	width: 100%;
+	background-color: #466f6a;
+	margin-top: 95px;
+	height: 275px !important;
+}
+.footer1 {
+	float: left;
+	width: 409px;
+	height: 218px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.footer2 {
+	float: left;
+	margin-top: 210px !important;
+	margin-left: 560px;
+}
